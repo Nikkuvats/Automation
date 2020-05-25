@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="demoapFlow" doc:id="229d638a-3e19-4336-bce6-bb2c6a88bc78" >
 		<http:listener doc:name="Listener" doc:id="52cfe26a-20c2-4236-9e8a-eabb7a41fe24" config-ref="HTTP_Listener_config" path="/Mule"/>
-		<set-payload value="Zindagi na milegi dobara" doc:name="Set Payload" doc:id="0df5c2b4-f862-4ed0-a82a-24a910be096a" />
+		<set-payload value="Hello Mules Aayush here" doc:name="Set Payload" doc:id="0df5c2b4-f862-4ed0-a82a-24a910be096a" />
 	</flow>
 </mule>
